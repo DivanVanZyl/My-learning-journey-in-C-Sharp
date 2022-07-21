@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lambda", "MyLearning\Lambda.csproj", "{548C4A45-4389-4A59-800C-FB28A4ABC8BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lambda", "Lambda\Lambda.csproj", "{548C4A45-4389-4A59-800C-FB28A4ABC8BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced CSharp - Instrinsics", "Advanced CSharp - Numerics\Advanced CSharp - Instrinsics.csproj", "{15C0AE3A-6E86-402A-872D-88644C3F059D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advanced CSharp - Instrinsics", "Advanced CSharp - Numerics\Advanced CSharp - Instrinsics.csproj", "{15C0AE3A-6E86-402A-872D-88644C3F059D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced CSharp - Floating-Point Types", "Advanced CSharp - Floating-Point Types\Advanced CSharp - Floating-Point Types.csproj", "{FB2867BA-7988-43DB-B6CB-4A6B3F6B05B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{15C0AE3A-6E86-402A-872D-88644C3F059D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15C0AE3A-6E86-402A-872D-88644C3F059D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15C0AE3A-6E86-402A-872D-88644C3F059D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB2867BA-7988-43DB-B6CB-4A6B3F6B05B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB2867BA-7988-43DB-B6CB-4A6B3F6B05B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB2867BA-7988-43DB-B6CB-4A6B3F6B05B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB2867BA-7988-43DB-B6CB-4A6B3F6B05B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
