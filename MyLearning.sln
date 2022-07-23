@@ -5,11 +5,13 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lambda", "Lambda\Lambda.csproj", "{548C4A45-4389-4A59-800C-FB28A4ABC8BF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advanced CSharp - Instrinsics", "Advanced CSharp - Numerics\Advanced CSharp - Instrinsics.csproj", "{15C0AE3A-6E86-402A-872D-88644C3F059D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Instrinsics", "Numerics\Instrinsics.csproj", "{15C0AE3A-6E86-402A-872D-88644C3F059D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced CSharp - Floating-Point Types", "Advanced CSharp - Floating-Point Types\Advanced CSharp - Floating-Point Types.csproj", "{FB2867BA-7988-43DB-B6CB-4A6B3F6B05B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Floating-Point Types", "Floating-Point Types\Floating-Point Types.csproj", "{FB2867BA-7988-43DB-B6CB-4A6B3F6B05B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced CSharp - Vector", "Advanced CSharp - Vector\Advanced CSharp - Vector.csproj", "{8471A11A-89F2-47AA-BC2D-CA70BDE47B5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vector", "Vector\Vector.csproj", "{8471A11A-89F2-47AA-BC2D-CA70BDE47B5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{F8CE0035-92E9-471E-807E-D468EE2F0510}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8471A11A-89F2-47AA-BC2D-CA70BDE47B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8471A11A-89F2-47AA-BC2D-CA70BDE47B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8471A11A-89F2-47AA-BC2D-CA70BDE47B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8CE0035-92E9-471E-807E-D468EE2F0510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CE0035-92E9-471E-807E-D468EE2F0510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8CE0035-92E9-471E-807E-D468EE2F0510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8CE0035-92E9-471E-807E-D468EE2F0510}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
