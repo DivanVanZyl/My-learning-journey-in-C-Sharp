@@ -1,4 +1,5 @@
 ﻿using System;
+//************************System.Type***************************************************************************************
 Type t = typeof(int);
 
 Console.WriteLine("The type is: " + t + "\n");
@@ -44,5 +45,36 @@ var t4 = Type.GetType("System.Collections.Generic.List`1");
 Console.WriteLine($"A List<T> ({t4.FullName}) has {t4.GetMethods().Length } methods.");
 
 
+//************************Inspection***************************************************************************************
+//Guid is a struct, not a type, but we can still het type info
+var t5 = typeof(Guid);
+/*t5.FullName;
+t5.Name;*/
+var ctors = t5.GetConstructors();
+foreach(var ctor in ctors)
+    {
+    Console.Write(" - Guid(");
+    var pars = ctor.GetParameters();
+    for(var i = 0; i < pars.Length; ++i)
+    {
+        var par = pars[i];
+        Console.Write($"{par.ParameterType.Name} {par.Name}");
+        if(i+1 != pars.Length)
+        {
+            Console.Write(",");
+        }
+    }
+        Console.WriteLine(")");
+}
+Console.WriteLine();
+//You can do the same as above for methods with eg. t.GetMethods();
+
+
+//************************Construction***************************************************************************************
+var t6 = typeof(bool);
+//How to make a new instance of type bool, without the usual "new"?
+//Use activator class:
+var b = Activator.CreateInstance(t6);
+Console.WriteLine($"The default value of an isntance of type {t6.FullName} is: {b}");
 
 Console.ReadKey();
