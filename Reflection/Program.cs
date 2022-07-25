@@ -77,4 +77,47 @@ var t6 = typeof(bool);
 var b = Activator.CreateInstance(t6);
 Console.WriteLine($"The default value of an isntance of type {t6.FullName} is: {b}");
 
+//Also possible to invoke CreateInstance using a generic parameter:
+var b2 = Activator.CreateInstance<bool>();
+
+//Remoting wrappers:
+var wc = Activator.CreateInstance("System", "System.Timers.Timer");
+
+Console.WriteLine("Wraped object: " + wc);
+Console.WriteLine("Unwraped object: " + wc.Unwrap());
+
+//Can get constructor and invoke it, in the way demonstrated earlier
+var ctor1 = typeof(string).GetConstructor(new[] { typeof(char[]) });
+var myString = ctor1.Invoke(new object[] {
+new char[] { 'h', 'e', 'l', 'l', 'o' }
+});
+
+Console.WriteLine("This string's constructor was found, and then invoked: " + myString);
+
+//Now the same for Generics
+var listType = Type.GetType("System.Collections.Generic.List`1");
+//[System.Collections.Generic.List`1[T]]
+var listOfIntType = listType.MakeGenericType(typeof(int));
+//[System.Collections.Generic.List`1[System.Int32]]
+
+var listOfIntCtor = listOfIntType.GetConstructor(Array.Empty<Type>());
+//[Void .ctor()]
+var theList = listOfIntCtor.Invoke(Array.Empty<Type>());
+//theList: List<int>(0) { }
+
+//IMPORTANT: When you call Invoke() on something, you return an object, NOT a typed value. 
+//You have to cast it into a type, to be able to perform an operation.
+//Demonstrated below:
+var charArrayCtor  = typeof(char[]).GetConstructor(new[] {typeof(int)});
+var arr = charArrayCtor.Invoke(new object[] { 20 });
+Console.WriteLine($"{ arr }is empty array here");
+//arr[0] = 'A'; //NOT VALID. Cannot apply indexing to 'object'
+
+//But now, after a cast:
+var newArr = (char[])arr;
+newArr[0] = 'a';    //Now we can do this.
+var newStr = new string(newArr);
+Console.WriteLine("The new content is: " + newStr);
+
+
 Console.ReadKey();
