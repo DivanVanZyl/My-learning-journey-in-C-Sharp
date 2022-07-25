@@ -11,11 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Floating-Point Types", "Flo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vector", "Vector\Vector.csproj", "{8471A11A-89F2-47AA-BC2D-CA70BDE47B5A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection", "Reflection\Reflection.csproj", "{F8CE0035-92E9-471E-807E-D468EE2F0510}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Type", "Reflection\System.Type.csproj", "{F8CE0035-92E9-471E-807E-D468EE2F0510}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection - Delegates and Events", "Reflection - Delegates and Events\Reflection - Delegates and Events.csproj", "{B86F60EC-DF97-4FF4-8C0C-D8D7C150F0F3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection - Attributes", "Reflection - Attributes\Reflection - Attributes.csproj", "{213DCF8A-8D69-449C-B70A-CD4C95580D40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Numerics", "Numerics", "{3E3DB345-C5A7-4736-B925-A9125E832CE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reflection", "Reflection", "{E7161EF4-F0DF-4933-B638-80A73F5DE9F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Operators", "Operators", "{4E96F498-D9F0-4C86-A1AF-F311573787C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -114,6 +120,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{548C4A45-4389-4A59-800C-FB28A4ABC8BF} = {4E96F498-D9F0-4C86-A1AF-F311573787C6}
+		{15C0AE3A-6E86-402A-872D-88644C3F059D} = {3E3DB345-C5A7-4736-B925-A9125E832CE4}
+		{FB2867BA-7988-43DB-B6CB-4A6B3F6B05B4} = {3E3DB345-C5A7-4736-B925-A9125E832CE4}
+		{8471A11A-89F2-47AA-BC2D-CA70BDE47B5A} = {3E3DB345-C5A7-4736-B925-A9125E832CE4}
+		{F8CE0035-92E9-471E-807E-D468EE2F0510} = {E7161EF4-F0DF-4933-B638-80A73F5DE9F6}
+		{B86F60EC-DF97-4FF4-8C0C-D8D7C150F0F3} = {E7161EF4-F0DF-4933-B638-80A73F5DE9F6}
+		{213DCF8A-8D69-449C-B70A-CD4C95580D40} = {E7161EF4-F0DF-4933-B638-80A73F5DE9F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F2E19F94-9E4D-4161-A917-1A06BB108C11}
