@@ -21,6 +21,7 @@ static class Extentions
         return result;
     }
 
+    //NOTE: There is no polymorphism, you cannot override built-in methods such as ToString();
     public static string AsSingleString<T>(this List<T> list)
     {
         string s = "";
