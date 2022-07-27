@@ -120,4 +120,4 @@ var newStr = new string(newArr);
 Console.WriteLine("The new content is: " + newStr);
 
 
-Console.ReadKey();
+

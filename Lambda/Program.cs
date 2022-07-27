@@ -10,4 +10,3 @@ List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 9 };
 
 numbers.Where(x => x % 2 != 0).ToList().ForEach(x => Console.WriteLine(x));
 
-Console.ReadKey();

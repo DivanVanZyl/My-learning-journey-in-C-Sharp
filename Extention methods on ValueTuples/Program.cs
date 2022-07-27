@@ -48,7 +48,7 @@ public class Demo
 
         Console.WriteLine(merged.AsSingleString());
 
-        Console.ReadKey();
+        
     }
 
 }

@@ -27,4 +27,3 @@ else
     Console.WriteLine("AVX is not supported.");
 }
 
-Console.ReadKey();

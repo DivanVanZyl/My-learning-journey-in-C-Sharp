@@ -46,4 +46,3 @@ foreach(var b in result)
     Console.Write(b + ",");
 Console.Write("]");
 
-Console.ReadKey();

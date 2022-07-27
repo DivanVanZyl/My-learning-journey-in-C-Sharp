@@ -45,7 +45,7 @@
         {
             double x = 0.1 + 0.2;
             Console.WriteLine(x.ToBinary());
-            Console.ReadKey();
+            
         }
     }
 }
