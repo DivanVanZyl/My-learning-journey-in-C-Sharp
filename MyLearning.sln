@@ -47,11 +47,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDisposable", "IDisposable\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Duck Typing Mixins", "Duck Typing Mixins", "{3AF852F2-E8CF-4FB0-9761-122BF279EA3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckTypingMixins", "DuckTypingMixins\DuckTypingMixins.csproj", "{B355F342-9E46-4AA6-9920-6906026BAE4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DuckTypingMixins", "DuckTypingMixins\DuckTypingMixins.csproj", "{B355F342-9E46-4AA6-9920-6906026BAE4A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Continuation Passing Style", "Continuation Passing Style", "{769E10BC-C46D-4952-B58C-634F087425DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Continuation Passing Style", "Continuation Passing Style\Continuation Passing Style.csproj", "{BFA42EF0-98AC-4E8F-8C65-98E211807444}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Continuation Passing Style", "Continuation Passing Style\Continuation Passing Style.csproj", "{BFA42EF0-98AC-4E8F-8C65-98E211807444}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Local Inversion of Control", "Local Inversion of Control", "{EB17F2C8-B1F2-4DD6-8D61-DED212250638}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Local Inversion of Control", "Local Inversion of Control\Local Inversion of Control.csproj", "{849E7D0B-9209-42E5-9990-28F9931EA69D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -255,6 +259,18 @@ Global
 		{BFA42EF0-98AC-4E8F-8C65-98E211807444}.Release|x64.Build.0 = Release|Any CPU
 		{BFA42EF0-98AC-4E8F-8C65-98E211807444}.Release|x86.ActiveCfg = Release|Any CPU
 		{BFA42EF0-98AC-4E8F-8C65-98E211807444}.Release|x86.Build.0 = Release|Any CPU
+		{849E7D0B-9209-42E5-9990-28F9931EA69D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{849E7D0B-9209-42E5-9990-28F9931EA69D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{849E7D0B-9209-42E5-9990-28F9931EA69D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{849E7D0B-9209-42E5-9990-28F9931EA69D}.Debug|x64.Build.0 = Debug|Any CPU
+		{849E7D0B-9209-42E5-9990-28F9931EA69D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{849E7D0B-9209-42E5-9990-28F9931EA69D}.Debug|x86.Build.0 = Debug|Any CPU
+		{849E7D0B-9209-42E5-9990-28F9931EA69D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{849E7D0B-9209-42E5-9990-28F9931EA69D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{849E7D0B-9209-42E5-9990-28F9931EA69D}.Release|x64.ActiveCfg = Release|Any CPU
+		{849E7D0B-9209-42E5-9990-28F9931EA69D}.Release|x64.Build.0 = Release|Any CPU
+		{849E7D0B-9209-42E5-9990-28F9931EA69D}.Release|x86.ActiveCfg = Release|Any CPU
+		{849E7D0B-9209-42E5-9990-28F9931EA69D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -276,6 +292,7 @@ Global
 		{DFF897AC-8F1D-47CC-92F2-D5FB036C27A9} = {B40F6960-0E20-4397-A9A2-FC6119C62A20}
 		{B355F342-9E46-4AA6-9920-6906026BAE4A} = {3AF852F2-E8CF-4FB0-9761-122BF279EA3B}
 		{BFA42EF0-98AC-4E8F-8C65-98E211807444} = {769E10BC-C46D-4952-B58C-634F087425DC}
+		{849E7D0B-9209-42E5-9990-28F9931EA69D} = {EB17F2C8-B1F2-4DD6-8D61-DED212250638}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F2E19F94-9E4D-4161-A917-1A06BB108C11}
