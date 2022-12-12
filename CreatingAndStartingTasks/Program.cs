@@ -57,6 +57,5 @@ internal static class Progam
         Console.WriteLine($"Length of '{text2}' is {task2.Result}");
 
         Console.WriteLine("Main program done.");
-        Console.ReadKey();
     }
 }
