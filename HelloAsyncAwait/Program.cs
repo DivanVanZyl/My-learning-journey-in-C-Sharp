@@ -2,15 +2,15 @@
 {
     public static class Program
     {
-        static void Main(string[] args)
+        static async void Main(string[] args)
         {
             var worker = new Worker();
             Console.WriteLine("Beginning of main program.");
 
-            worker.DoSomeWork();
+            await worker.DoSomeWork();
 
-            /*Console.WriteLine("End of main program.");
-            Console.ReadKey();*/
+            Console.WriteLine("End of main program.");
+            Console.ReadKey();
             Console.WriteLine("Main program terminated.");
 
         }
