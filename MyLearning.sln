@@ -83,11 +83,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Async Factory Method", "Asy
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Async Initialization Pattern", "Async Initialization Pattern\Async Initialization Pattern.csproj", "{23892951-1E71-40D2-92D6-EFF4230E307A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueTask", "ValueTask\ValueTask.csproj", "{B3707F00-C9E8-43A8-B2C3-F57F2BCE0A2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueTask", "ValueTask\ValueTask.csproj", "{B3707F00-C9E8-43A8-B2C3-F57F2BCE0A2A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sorting Algorithms", "Sorting Algorithms", "{61198E36-AAFF-4486-9463-A3D37F9AC4F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merge Sort", "Merge Sort\Merge Sort.csproj", "{A53382AC-9028-44FA-97EE-300F268C160D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sorting", "Merge Sort\Sorting.csproj", "{A53382AC-9028-44FA-97EE-300F268C160D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
