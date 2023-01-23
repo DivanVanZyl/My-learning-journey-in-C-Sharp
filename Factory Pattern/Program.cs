@@ -5,7 +5,7 @@
  * 
  * 2 types of factories: Proper and abstract.
  * 
- * A factory is essentially a method that returns instances of an object, using a private constructor.
+ * A factory is essentially a method that returns instances of an object, using a private constructor. This is called a factory method.
  * 
  */
 Console.WriteLine("Hello, World!");
