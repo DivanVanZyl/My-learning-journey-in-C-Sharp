@@ -119,7 +119,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Critical Selections", "Crit
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entity Framework", "Entity Framework", "{B5F31134-0977-4B05-B667-9DF5DB42A2CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoPizza", "ContosoPizza\ContosoPizza.csproj", "{3FC705EA-36A8-461D-B067-5A7679DAB7D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoPizza", "ContosoPizza\ContosoPizza.csproj", "{3FC705EA-36A8-461D-B067-5A7679DAB7D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -551,6 +551,18 @@ Global
 		{5862439B-4803-4CB0-8D86-02146CD856C1}.Release|x64.Build.0 = Release|Any CPU
 		{5862439B-4803-4CB0-8D86-02146CD856C1}.Release|x86.ActiveCfg = Release|Any CPU
 		{5862439B-4803-4CB0-8D86-02146CD856C1}.Release|x86.Build.0 = Release|Any CPU
+		{3FC705EA-36A8-461D-B067-5A7679DAB7D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC705EA-36A8-461D-B067-5A7679DAB7D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC705EA-36A8-461D-B067-5A7679DAB7D0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3FC705EA-36A8-461D-B067-5A7679DAB7D0}.Debug|x64.Build.0 = Debug|Any CPU
+		{3FC705EA-36A8-461D-B067-5A7679DAB7D0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3FC705EA-36A8-461D-B067-5A7679DAB7D0}.Debug|x86.Build.0 = Debug|Any CPU
+		{3FC705EA-36A8-461D-B067-5A7679DAB7D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC705EA-36A8-461D-B067-5A7679DAB7D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FC705EA-36A8-461D-B067-5A7679DAB7D0}.Release|x64.ActiveCfg = Release|Any CPU
+		{3FC705EA-36A8-461D-B067-5A7679DAB7D0}.Release|x64.Build.0 = Release|Any CPU
+		{3FC705EA-36A8-461D-B067-5A7679DAB7D0}.Release|x86.ActiveCfg = Release|Any CPU
+		{3FC705EA-36A8-461D-B067-5A7679DAB7D0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
