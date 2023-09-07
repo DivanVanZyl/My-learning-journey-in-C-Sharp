@@ -28,7 +28,7 @@ internal static class Progam
 
     public static void Main()
     {
-        ////When you start a Task, you have to provide an action. An action can be an annonamous function, existing function or a lambda. 
+        ////When you start a Task, you have to provide an action. An action can be an anonymous function, existing function or a lambda. 
         ////In other words, you need to tell the Task what it needs to do.
         //Task.Factory.StartNew(() => Write('.'));    //fig. A
 
