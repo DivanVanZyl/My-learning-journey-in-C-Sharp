@@ -1,0 +1,140 @@
+﻿@page "/fetchdata"
+@using AsyncOnTheWeb.Shared
+@inject HttpClient Http
+
+<PageTitle>Weather forecast</PageTitle>
+
+<h1>Weather forecast</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+@if (forecasts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Temp. (C)</th>
+                <th>Temp. (F)</th>
+                <th>Summary</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in forecasts)
+            {
+                <tr>
+                    <td>@forecast.Date.ToShortDateString()</td>
+                    <td>@forecast.TemperatureC</td>
+                    <td>@forecast.TemperatureF</td>
+                    <td>@forecast.Summary</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h1>Counter</h1>
+
+    <p role="status">Current count: @currentCount</p>
+
+    <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <button class="btn btn-primary" @onclick="() => StartSyncronousProcess(null,4)">Sync</button>
+    <button class="btn btn-primary" @onclick="() => StartPartialAyncronousProcess(null,2)">Partial Async</button>
+    <button class="btn btn-primary" @onclick="() => StartFullAyncronousProcess(null,4)">Full Async</button>
+}
+
+@code {
+
+    //Counter Code
+    private int currentCount = 0;
+    private bool result = false;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+
+    //Weather forecast code
+    private WeatherForecast[]? forecasts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+    }
+
+    private void StartSyncronousProcess(string? name, int seconds = 5)
+    {        
+        Write("Started process " + (name is not null ? $": {name}" : ""));
+        Wait(null, seconds);
+        Write("Ended process " + (name is not null ? $": {name}" : ""));
+    }
+
+    private async Task StartPartialAyncronousProcess(string? name, int seconds = 5)
+    {
+        Write("Started process " + (name is not null ? $": {name}" : ""));
+        Wait(null, seconds);
+        await AsyncWait(null, seconds);
+        Write("Ended process " + (name is not null ? $": {name}" : ""));
+    }
+
+    private async Task StartFullAyncronousProcess(string? name, int seconds = 5)
+    {
+        Write("Started process " + (name is not null ? $": {name}" : ""));
+        await AsyncWait(null, seconds);
+        Write("Ended process " + (name is not null ? $": {name}" : ""));
+    }
+
+    private void Wait(string? name, int seconds = 5)
+    {
+        Write("Started sub-process " + (name is not null ? $": {name}" : ""));
+        LongTask(seconds);
+        Write("Ended sub-process " + (name is not null ? $": {name}" : ""));
+    }
+
+    private async Task AsyncWait(string? name, int seconds = 5)
+    {
+        Write("Started sub-process " + (name is not null ? $": {name}" : ""));
+        await Task.Run(() => LongTask(seconds));
+        Write("Ended sub-process " + (name is not null ? $": {name}" : ""));
+    }
+
+    private void LongTask(int seconds = 5)
+    {
+        //Thread.Sleep(seconds * 1000);
+        //Task.Delay(seconds * 1000);
+        //var result = Http.GetFromJsonAsync<bool>("longtask");
+
+        // for(int cnt =0;cnt < int.MaxValue;cnt++)
+        // {
+        //     //Console.Write(cnt);
+        // }
+
+        // int a, b;
+        // a = int.MaxValue-1;
+        // for (b = 2; a > 1; b++)
+        //     if (a % b == 0)
+        //     {
+        //         int x = 0;
+        //         while (a % b == 0)
+        //         {
+        //             a /= b;
+        //             x++;
+        //         }
+        //     Console.WriteLine(x);
+        //     }
+    }
+
+    private void Write(string message)
+    {
+        Console.WriteLine(message);
+    }
+}
