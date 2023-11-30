@@ -153,9 +153,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{21FA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HtmlBuilder", "HtmlBuilder\HtmlBuilder.csproj", "{34FFBEA4-2B13-4A05-AA5E-DB4ACFEDC1F8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentInterface", "FluentInterface\FluentInterface.csproj", "{7CD44975-5233-473B-89A1-ADF70DFFF62E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentBuilder", "FluentInterface\FluentBuilder.csproj", "{7CD44975-5233-473B-89A1-ADF70DFFF62E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicBuilder-HtmlBuilder", "BasicBuilder-HtmlBuilder\BasicBuilder-HtmlBuilder.csproj", "{05329F7C-F019-4954-A71B-EC3D642F0499}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicBuilder-HtmlBuilder", "BasicBuilder-HtmlBuilder\BasicBuilder-HtmlBuilder.csproj", "{05329F7C-F019-4954-A71B-EC3D642F0499}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
