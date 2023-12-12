@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SortingData
+namespace Shared
 {
-    internal static class Extensions
+    public static class Extensions
     {
         public static void ForEach<T>(this IEnumerable<T> enumerable, Action<T> action)
         {

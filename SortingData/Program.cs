@@ -1,4 +1,4 @@
-﻿using SortingData;
+﻿using Shared;
 
 var rand = new Random();
 var randomvalues = Enumerable.Range(0, 10)
