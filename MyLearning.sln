@@ -175,9 +175,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicHackerrank", "BasicHac
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project Euler", "Project Euler", "{D6E06217-5F6F-4F5D-940F-7327B1A1AA5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectEulerUI", "ProjectEulerUI\ProjectEulerUI.csproj", "{EBBD87E7-055F-4A21-B55B-10E25C6AABB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectEulerUI", "ProjectEulerUI\ProjectEulerUI.csproj", "{EBBD87E7-055F-4A21-B55B-10E25C6AABB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectEuler", "ProjectEuler\ProjectEuler.csproj", "{C6865C53-178D-4BD8-84B8-A4868B999804}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectEuler", "ProjectEuler\ProjectEuler.csproj", "{C6865C53-178D-4BD8-84B8-A4868B999804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quantifier Operations", "Quantifier Operations\Quantifier Operations.csproj", "{3D385450-0167-4B63-933D-DD3A5EC64A36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -885,6 +887,18 @@ Global
 		{C6865C53-178D-4BD8-84B8-A4868B999804}.Release|x64.Build.0 = Release|Any CPU
 		{C6865C53-178D-4BD8-84B8-A4868B999804}.Release|x86.ActiveCfg = Release|Any CPU
 		{C6865C53-178D-4BD8-84B8-A4868B999804}.Release|x86.Build.0 = Release|Any CPU
+		{3D385450-0167-4B63-933D-DD3A5EC64A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D385450-0167-4B63-933D-DD3A5EC64A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D385450-0167-4B63-933D-DD3A5EC64A36}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3D385450-0167-4B63-933D-DD3A5EC64A36}.Debug|x64.Build.0 = Debug|Any CPU
+		{3D385450-0167-4B63-933D-DD3A5EC64A36}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3D385450-0167-4B63-933D-DD3A5EC64A36}.Debug|x86.Build.0 = Debug|Any CPU
+		{3D385450-0167-4B63-933D-DD3A5EC64A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D385450-0167-4B63-933D-DD3A5EC64A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D385450-0167-4B63-933D-DD3A5EC64A36}.Release|x64.ActiveCfg = Release|Any CPU
+		{3D385450-0167-4B63-933D-DD3A5EC64A36}.Release|x64.Build.0 = Release|Any CPU
+		{3D385450-0167-4B63-933D-DD3A5EC64A36}.Release|x86.ActiveCfg = Release|Any CPU
+		{3D385450-0167-4B63-933D-DD3A5EC64A36}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -954,6 +968,7 @@ Global
 		{1271D29C-CB7E-4EB0-A1D9-8813D52B7297} = {C7636040-523D-4889-B629-40A44E36EA35}
 		{EBBD87E7-055F-4A21-B55B-10E25C6AABB3} = {D6E06217-5F6F-4F5D-940F-7327B1A1AA5F}
 		{C6865C53-178D-4BD8-84B8-A4868B999804} = {D6E06217-5F6F-4F5D-940F-7327B1A1AA5F}
+		{3D385450-0167-4B63-933D-DD3A5EC64A36} = {EAFCF35A-F8E0-4DE0-A457-76C1FA53B829}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F2E19F94-9E4D-4161-A917-1A06BB108C11}
