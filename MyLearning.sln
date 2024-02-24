@@ -181,17 +181,22 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectEuler", "ProjectEule
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quantifier Operations", "Quantifier Operations\Quantifier Operations.csproj", "{3D385450-0167-4B63-933D-DD3A5EC64A36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Partitioning Data", "Partitioning Data\Partitioning Data.csproj", "{B6DD358B-52E3-4484-8F76-EC2C4D36DA4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Partitioning Data", "Partitioning Data\Partitioning Data.csproj", "{B6DD358B-52E3-4484-8F76-EC2C4D36DA4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Join Operations", "Join Operations\Join Operations.csproj", "{7DB952A6-5CE4-42FB-A5AC-AE8F189BFB3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Join Operations", "Join Operations\Join Operations.csproj", "{7DB952A6-5CE4-42FB-A5AC-AE8F189BFB3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equality Operations", "Equality Operations\Equality Operations.csproj", "{5B870E6E-4653-46FC-B0E0-B544619B0D01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Equality Operations", "Equality Operations\Equality Operations.csproj", "{5B870E6E-4653-46FC-B0E0-B544619B0D01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Element Operations", "Element Operations\Element Operations.csproj", "{D5BF92B1-70CD-4D11-BA85-744CDEB83105}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Element Operations", "Element Operations\Element Operations.csproj", "{D5BF92B1-70CD-4D11-BA85-744CDEB83105}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concatenation Operations", "Concatenation Operations\Concatenation Operations.csproj", "{87A36476-93EE-4A3E-9971-EF87B355063E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Concatenation Operations", "Concatenation Operations\Concatenation Operations.csproj", "{87A36476-93EE-4A3E-9971-EF87B355063E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggregation Oprations", "Aggregation Oprations\Aggregation Oprations.csproj", "{712D16FE-0CAB-4EB9-843C-2AEF7D425D28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aggregation Oprations", "Aggregation Oprations\Aggregation Oprations.csproj", "{712D16FE-0CAB-4EB9-843C-2AEF7D425D28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{AB4019C4-990D-48AC-ADD1-C030499AC496}"
+	ProjectSection(SolutionItems) = preProject
+		Description.txt = Description.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1059,6 +1064,7 @@ Global
 		{D5BF92B1-70CD-4D11-BA85-744CDEB83105} = {EAFCF35A-F8E0-4DE0-A457-76C1FA53B829}
 		{87A36476-93EE-4A3E-9971-EF87B355063E} = {EAFCF35A-F8E0-4DE0-A457-76C1FA53B829}
 		{712D16FE-0CAB-4EB9-843C-2AEF7D425D28} = {EAFCF35A-F8E0-4DE0-A457-76C1FA53B829}
+		{AB4019C4-990D-48AC-ADD1-C030499AC496} = {7D16DCC2-BD53-4DE5-9C42-FB84ECCF02E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F2E19F94-9E4D-4161-A917-1A06BB108C11}

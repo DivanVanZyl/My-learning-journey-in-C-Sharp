@@ -1,0 +1,1 @@
+With the decorator pattern, you can add new functionality, without interacting (changing) existing structures. This complies with the Open-Close Principle.
