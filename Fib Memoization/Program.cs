@@ -1,7 +1,9 @@
-﻿Fib fib = new Fib();
+﻿using System.Numerics;
+
+Fib fib = new Fib();
 MemFib memFib = new MemFib();
 
-Console.WriteLine(memFib.Run(50));
+Console.WriteLine(memFib.Run(1024));
 public class Fib
 {
     //O(n^2)
@@ -19,9 +21,9 @@ public class Fib
 //Fib with memoization
 public class MemFib
 {
-    private Dictionary<int,ulong> memo = new Dictionary<int, ulong>();
+    private Dictionary<int,BigInteger> memo = new Dictionary<int, BigInteger>();
     //O(n)
-    public ulong Run(int n)
+    public BigInteger Run(int n)
     {
         ulong x;
         if(memo.ContainsKey(n))
