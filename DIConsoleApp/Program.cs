@@ -20,4 +20,4 @@ logger.LogDebug("Logger is working!");
 
 // Get Service and call method
 var service = serviceProvider.GetService<IMyService>();
-service.MyServiceMethod();
+service.MyServiceMethod();  
