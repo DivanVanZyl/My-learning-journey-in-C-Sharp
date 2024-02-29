@@ -202,7 +202,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamic Programming", "Dyna
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Memoization", "Memoization", "{00BE101C-9C2A-474D-ABDF-945664EF235B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fib Memoization", "Fib Memoization\Fib Memoization.csproj", "{996C2E78-320E-451E-805D-D98B7B5ED48A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fib Memoization", "Fib Memoization\Fib Memoization.csproj", "{996C2E78-320E-451E-805D-D98B7B5ED48A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridTravelerMomoization", "GridTravelerMomoization\GridTravelerMomoization.csproj", "{F369C0C0-C322-461E-9BC8-89C9E3240DDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1006,6 +1008,18 @@ Global
 		{996C2E78-320E-451E-805D-D98B7B5ED48A}.Release|x64.Build.0 = Release|Any CPU
 		{996C2E78-320E-451E-805D-D98B7B5ED48A}.Release|x86.ActiveCfg = Release|Any CPU
 		{996C2E78-320E-451E-805D-D98B7B5ED48A}.Release|x86.Build.0 = Release|Any CPU
+		{F369C0C0-C322-461E-9BC8-89C9E3240DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F369C0C0-C322-461E-9BC8-89C9E3240DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F369C0C0-C322-461E-9BC8-89C9E3240DDE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F369C0C0-C322-461E-9BC8-89C9E3240DDE}.Debug|x64.Build.0 = Debug|Any CPU
+		{F369C0C0-C322-461E-9BC8-89C9E3240DDE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F369C0C0-C322-461E-9BC8-89C9E3240DDE}.Debug|x86.Build.0 = Debug|Any CPU
+		{F369C0C0-C322-461E-9BC8-89C9E3240DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F369C0C0-C322-461E-9BC8-89C9E3240DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F369C0C0-C322-461E-9BC8-89C9E3240DDE}.Release|x64.ActiveCfg = Release|Any CPU
+		{F369C0C0-C322-461E-9BC8-89C9E3240DDE}.Release|x64.Build.0 = Release|Any CPU
+		{F369C0C0-C322-461E-9BC8-89C9E3240DDE}.Release|x86.ActiveCfg = Release|Any CPU
+		{F369C0C0-C322-461E-9BC8-89C9E3240DDE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1085,6 +1099,7 @@ Global
 		{AB4019C4-990D-48AC-ADD1-C030499AC496} = {7D16DCC2-BD53-4DE5-9C42-FB84ECCF02E8}
 		{00BE101C-9C2A-474D-ABDF-945664EF235B} = {73E801D1-4635-4897-A050-2BBC4161F1EE}
 		{996C2E78-320E-451E-805D-D98B7B5ED48A} = {00BE101C-9C2A-474D-ABDF-945664EF235B}
+		{F369C0C0-C322-461E-9BC8-89C9E3240DDE} = {00BE101C-9C2A-474D-ABDF-945664EF235B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F2E19F94-9E4D-4161-A917-1A06BB108C11}
