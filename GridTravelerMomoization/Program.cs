@@ -1,4 +1,5 @@
 ﻿IGridTraveler gridTraveler = new MemGridTraveler();
+
 Console.WriteLine(gridTraveler.Run(1,1));
 Console.WriteLine(gridTraveler.Run(2,3));
 Console.WriteLine(gridTraveler.Run(3,2));
