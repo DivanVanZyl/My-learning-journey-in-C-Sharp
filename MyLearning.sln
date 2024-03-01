@@ -201,10 +201,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamic Programming", "Dynamic Programming", "{73E801D1-4635-4897-A050-2BBC4161F1EE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Memoization", "Memoization", "{00BE101C-9C2A-474D-ABDF-945664EF235B}"
+	ProjectSection(SolutionItems) = preProject
+		Memoization Steps.txt = Memoization Steps.txt
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fib Memoization", "Fib Memoization\Fib Memoization.csproj", "{996C2E78-320E-451E-805D-D98B7B5ED48A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridTravelerMomoization", "GridTravelerMomoization\GridTravelerMomoization.csproj", "{F369C0C0-C322-461E-9BC8-89C9E3240DDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GridTravelerMomoization", "GridTravelerMomoization\GridTravelerMomoization.csproj", "{F369C0C0-C322-461E-9BC8-89C9E3240DDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
