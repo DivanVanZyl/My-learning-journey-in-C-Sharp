@@ -211,7 +211,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GridTravelerMomoization", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CanSum Memoization", "CanSum Memoization\CanSum Memoization.csproj", "{D319FFC0-99ED-4554-AC1A-9C92AEACE01A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HowSum Memoization", "HowSum Memoization\HowSum Memoization.csproj", "{DD34055B-B8A8-4A5C-809D-68BCAD5C850B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HowSum Memoization", "HowSum Memoization\HowSum Memoization.csproj", "{DD34055B-B8A8-4A5C-809D-68BCAD5C850B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestSum Memoization", "BestSum Memoization\BestSum Memoization.csproj", "{1F6CA879-0A8D-4860-8279-48AD55870C8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1051,6 +1053,18 @@ Global
 		{DD34055B-B8A8-4A5C-809D-68BCAD5C850B}.Release|x64.Build.0 = Release|Any CPU
 		{DD34055B-B8A8-4A5C-809D-68BCAD5C850B}.Release|x86.ActiveCfg = Release|Any CPU
 		{DD34055B-B8A8-4A5C-809D-68BCAD5C850B}.Release|x86.Build.0 = Release|Any CPU
+		{1F6CA879-0A8D-4860-8279-48AD55870C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6CA879-0A8D-4860-8279-48AD55870C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6CA879-0A8D-4860-8279-48AD55870C8D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1F6CA879-0A8D-4860-8279-48AD55870C8D}.Debug|x64.Build.0 = Debug|Any CPU
+		{1F6CA879-0A8D-4860-8279-48AD55870C8D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1F6CA879-0A8D-4860-8279-48AD55870C8D}.Debug|x86.Build.0 = Debug|Any CPU
+		{1F6CA879-0A8D-4860-8279-48AD55870C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6CA879-0A8D-4860-8279-48AD55870C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F6CA879-0A8D-4860-8279-48AD55870C8D}.Release|x64.ActiveCfg = Release|Any CPU
+		{1F6CA879-0A8D-4860-8279-48AD55870C8D}.Release|x64.Build.0 = Release|Any CPU
+		{1F6CA879-0A8D-4860-8279-48AD55870C8D}.Release|x86.ActiveCfg = Release|Any CPU
+		{1F6CA879-0A8D-4860-8279-48AD55870C8D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1133,6 +1147,7 @@ Global
 		{F369C0C0-C322-461E-9BC8-89C9E3240DDE} = {00BE101C-9C2A-474D-ABDF-945664EF235B}
 		{D319FFC0-99ED-4554-AC1A-9C92AEACE01A} = {00BE101C-9C2A-474D-ABDF-945664EF235B}
 		{DD34055B-B8A8-4A5C-809D-68BCAD5C850B} = {00BE101C-9C2A-474D-ABDF-945664EF235B}
+		{1F6CA879-0A8D-4860-8279-48AD55870C8D} = {00BE101C-9C2A-474D-ABDF-945664EF235B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F2E19F94-9E4D-4161-A917-1A06BB108C11}

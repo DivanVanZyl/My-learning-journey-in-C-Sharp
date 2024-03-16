@@ -31,9 +31,9 @@ public static class HowSumMethods
 
     //time: O(n*m^2)
     //space: O(m^2)
-    public static List<int>? HowSumMemo(int targetSum, List<int> numbers, Dictionary<int,List<int>>? memo = null)
+    public static List<int>? HowSumMemo(int targetSum, List<int> numbers, Dictionary<int, List<int>>? memo = null)
     {
-        if(memo is null) memo = new Dictionary<int,List<int>>();
+        if (memo is null) memo = new Dictionary<int, List<int>>();
         if (memo.ContainsKey(targetSum)) return memo[targetSum];
         if (targetSum == 0) return [];
         if (targetSum < 0) return null;
@@ -41,7 +41,7 @@ public static class HowSumMethods
         foreach (int num in numbers)
         {
             int remainder = targetSum - num;
-            var remainderResult = HowSumMemo(remainder, numbers,memo);
+            var remainderResult = HowSumMemo(remainder, numbers, memo);
             if (remainderResult is not null)
             {
                 remainderResult.Add(num);
