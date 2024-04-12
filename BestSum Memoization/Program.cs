@@ -59,13 +59,13 @@ static class BestSumMethods
         {
             int remainder = targetSum - num;
             var remainderCombination = BestSumMemo(remainder, numbers, memo);
-            if(memo is null)
+            if (memo is null)
             {
                 memo = new Dictionary<int, List<int>?> { { remainder, remainderCombination } };
             }
-            else if(!memo.ContainsKey(remainder))
+            else if (!memo.ContainsKey(remainder))
             {
-                memo.Add(remainder,remainderCombination);
+                memo.Add(remainder, remainderCombination);
             }
             if (remainderCombination is not null)
             {
@@ -77,7 +77,6 @@ static class BestSumMethods
                 }
             }
         }
-
         return shortestCombination;
     }
 }
