@@ -215,7 +215,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HowSum Memoization", "HowSu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestSum Memoization", "BestSum Memoization\BestSum Memoization.csproj", "{1F6CA879-0A8D-4860-8279-48AD55870C8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanConstruct Memoization", "CanConstruct Memoization\CanConstruct Memoization.csproj", "{20D4241D-0CC1-4898-B9F4-CE59A9BC5AA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CanConstruct Memoization", "CanConstruct Memoization\CanConstruct Memoization.csproj", "{20D4241D-0CC1-4898-B9F4-CE59A9BC5AA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountConstruct Memoization", "countContruct\CountConstruct Memoization.csproj", "{607959AE-4316-4F05-8BD2-7ED1D78C332D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1079,6 +1081,18 @@ Global
 		{20D4241D-0CC1-4898-B9F4-CE59A9BC5AA0}.Release|x64.Build.0 = Release|Any CPU
 		{20D4241D-0CC1-4898-B9F4-CE59A9BC5AA0}.Release|x86.ActiveCfg = Release|Any CPU
 		{20D4241D-0CC1-4898-B9F4-CE59A9BC5AA0}.Release|x86.Build.0 = Release|Any CPU
+		{607959AE-4316-4F05-8BD2-7ED1D78C332D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{607959AE-4316-4F05-8BD2-7ED1D78C332D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{607959AE-4316-4F05-8BD2-7ED1D78C332D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{607959AE-4316-4F05-8BD2-7ED1D78C332D}.Debug|x64.Build.0 = Debug|Any CPU
+		{607959AE-4316-4F05-8BD2-7ED1D78C332D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{607959AE-4316-4F05-8BD2-7ED1D78C332D}.Debug|x86.Build.0 = Debug|Any CPU
+		{607959AE-4316-4F05-8BD2-7ED1D78C332D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{607959AE-4316-4F05-8BD2-7ED1D78C332D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{607959AE-4316-4F05-8BD2-7ED1D78C332D}.Release|x64.ActiveCfg = Release|Any CPU
+		{607959AE-4316-4F05-8BD2-7ED1D78C332D}.Release|x64.Build.0 = Release|Any CPU
+		{607959AE-4316-4F05-8BD2-7ED1D78C332D}.Release|x86.ActiveCfg = Release|Any CPU
+		{607959AE-4316-4F05-8BD2-7ED1D78C332D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1163,6 +1177,7 @@ Global
 		{DD34055B-B8A8-4A5C-809D-68BCAD5C850B} = {00BE101C-9C2A-474D-ABDF-945664EF235B}
 		{1F6CA879-0A8D-4860-8279-48AD55870C8D} = {00BE101C-9C2A-474D-ABDF-945664EF235B}
 		{20D4241D-0CC1-4898-B9F4-CE59A9BC5AA0} = {00BE101C-9C2A-474D-ABDF-945664EF235B}
+		{607959AE-4316-4F05-8BD2-7ED1D78C332D} = {00BE101C-9C2A-474D-ABDF-945664EF235B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F2E19F94-9E4D-4161-A917-1A06BB108C11}
