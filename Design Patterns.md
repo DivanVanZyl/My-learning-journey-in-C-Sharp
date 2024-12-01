@@ -1,8 +1,20 @@
-# Scenarios
+# Scenarios and which patterns address them
 
 ### Constructing Objects
 - Builder
 - Factory
+
+# Object Orientation
+
+### Extending behaviour
+
+When we need a superclass A, with an x amount of sub-classes, we may need to both inheric certain behaviours, but implement others per sub-class.
+There are two obvious solutions here: Inheriting some behaviours from a parent (inheritance), and implementing interfaces for the specific behaviours.
+But these present two problems:
+1. Inheritence can cause incorrect behaviour in sub-classes. 
+2. Interfaces may result in you duplicating code.
+
+A solution to this, is offloading behaviours to another class. Then one can define the behaviour of a method in a sub-class, during runtime! 
 
 # Patterns
 
