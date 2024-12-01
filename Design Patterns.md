@@ -16,6 +16,8 @@ But these present two problems:
 
 A solution to this, is offloading behaviours to another class. Then one can define the behaviour of a method in a sub-class, during runtime! 
 
+The Extending Behaviour example program, can be found in the OO folder of the MyLearning repo.
+
 # Patterns
 
 ### Builder
